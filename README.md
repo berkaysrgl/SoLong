@@ -21,9 +21,13 @@ P for the player’s starting position.
 
 Here is a simple valid map:
 111111111111
+
 10000P000001
+
 111011110001
+
 1EC000000001
+
 111111111111
 
 • The map must contain 1 exit, at least 1 collectible, and 1 starting position to
@@ -44,10 +48,15 @@ an error.
 • Another example of a minimal .ber map:
 
 1111111111111111111111111111111111
+
 1E0000000000000C00000C000000000001
+
 1010010100100000101001000000010101
+
 1010010010101010001001000000010101
+
 1P0000000C00C0000000000000000000C1
+
 1111111111111111111111111111111111
 
 • If any misconfiguration of any kind is encountered in the file, the program must
